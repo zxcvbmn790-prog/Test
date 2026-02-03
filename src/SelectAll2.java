@@ -8,11 +8,12 @@ public class SelectAll2 {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@172.16.15.67:1521:xe", "system", "1234");
-			System.out.println("가나다랍만아밪ㄷㅂ갇ㅈ박");
+			System.out.println("ㅈ박");
 			System.out.println(conn);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
 }
+
 
